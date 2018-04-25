@@ -1,0 +1,98 @@
+.management-carousel-page {
+    .carousel-list-title {
+        line-height: 34px;
+        border-bottom: 1px solid $gray-line-color;
+        span {
+            display: block;
+            float: left;
+        }
+    }
+    .carousel-title, .carousel-content {
+        width: 80%;
+    }
+    .carousel-order, .carousel-order-num {
+        width: 8%;
+    }
+    .carousel-opreate {
+        width: 12%;
+    }
+    .carousel-item {
+        padding: 30px 0;
+        border-bottom: 1px solid $gray-line-color;
+    }
+    .carousel-img {
+        border-radius: 14px;
+        margin-right: 20px;
+    }
+    .carousel-order-num, .carousel-edit, .carousel-delete {
+        line-height: 98px;
+    }
+
+}
+
+.management-carouse-form-page {
+
+  .carouse-form {
+    padding: 30px 20px;
+    border-top: 1px solid $input-text-color;
+  }
+  .upload-carousel {
+    position: relative;
+    .ivu-form-item {
+      margin-bottom: 0;
+    }
+    .ivu-form-item-content {
+      height: 100px;
+    }
+  }
+  .upload-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 91%;
+    height: 100px;
+    border-radius: 14px;
+  }
+  .upload-img-icon {
+    margin-right: 20px;
+    width: 210px;
+    height: 100px;
+    border: 1px solid $gray-line-color;
+    border-radius: 14px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    i {
+      line-height: 100px;
+      z-index: 100;
+    }
+  }
+  .ivu-form-item {
+    margin-bottom: 20px;
+  }
+  .carosel-text, .input-title {
+    width: 670px;
+  }
+  .input-url {
+    margin-bottom: 0;
+    float: left;
+    width: 57%;
+    margin-right: 18px;
+  }
+  .input-order {
+    margin-bottom: 0;
+    float: right;
+    width: 40%;
+  }
+  .carousel-operate {
+    line-height: 100px;
+    cursor: pointer;
+  }
+  .add-carousel-btn {
+    padding: 40px 20px 0 20px;
+  }
+  .add-carousel-submit {
+    padding: 10px 58px;
+  }
+}

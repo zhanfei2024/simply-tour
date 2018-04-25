@@ -1,0 +1,57 @@
+$gray-base: #000;
+$gray-font-color: #212121;
+$gray-darker: lighten($gray-base, 13.5%); // #222
+$gray-dark: lighten($gray-base, 20%); // #333
+$primary-color: #ffe775;
+$border-color: #fc993c;
+$brand-danger: #fa5b75;
+$background-color: #FFFFFF;
+$background-hover: #dd3333;
+$gray-line-color: #DCDCDC;
+$title-color: #5a3662;
+
+//text-color
+$light-blue-line: #3c3c3c;
+$gray-text-color: #646464;
+$white-text-color: #ffffff;
+$black-text-color: #a0a0a0;
+$input-text-color: #dcdcdc;
+
+// background-color
+$black-dark-bg: #f0f0f0;
+$primary-light-bg: #ffd05b;
+$primary-dark-bg: #ffd464;
+$white-dark-bg: #ffffff;
+$gray-dark-bg: #f2f2f2;
+$pic-default-bg: #333333;
+$carousel-point-bg: #ffffff;
+$cyan-dark-bg: #01AAC1;
+
+
+$letter-spacing-base: 1.12px; //~14px
+$letter-spacing-h4: 1.44px; //~18px
+$letter-spacing-h3: 1.92px; //~24px
+$letter-spacing-h6: 0.96px; //~12px
+$letter-spacing-h2: 2.4px; //~30px
+
+$font-size-base: 14px;
+$font-size-large: ceil(($font-size-base * 1.14)); // ~16px
+$font-size-small: ceil(($font-size-base * 0.85)); // ~12px
+
+$font-size-h1: floor(($font-size-base * 2.6)); // ~36px
+$font-size-h2: floor(($font-size-base * 2.15)); // ~30px
+$font-size-h3: ceil(($font-size-base * 1.7)); // ~24px
+$font-size-h4: ceil(($font-size-base * 1.28)); // ~18px
+$font-size-h5: $font-size-base;
+$font-size-h6: ceil(($font-size-base * 0.85)); // ~12px
+
+
+$font-family-sans-serif: PingFangSC-Light, PingFang SC Light, PingFang SC;
+$font-family-serif: PingFangSC-Light, PingFang SC Light, PingFang SC;
+$font-family-base: PingFangSC-Light, PingFang SC Light, PingFang SC;
+$font-family-regular: 'PingFangSC-Regular', 'PingFang SC';
+$font-family-light: 'PingFangSC-Light', 'PingFang SC Light', 'PingFang SC';
+$font-family-medium: 'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';
+//$font-family-sans-serif: PingFangSC-Light, PingFang SC Light, PingFang SC;
+//$font-family-serif: PingFangSC-Light, PingFang SC Light, PingFang SC;
+

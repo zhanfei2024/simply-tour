@@ -1,0 +1,12 @@
+{
+  "cannotDestroyRoleWithEmployee": {
+    "statusCode": 400,
+    "message": "Cannot delete the role with employees.",
+    "code": 24000
+  },
+  "cannotEditOwner": {
+    "statusCode": 400,
+    "message": "Role 'Owner' cannot be edited.",
+    "code": 24001
+  }
+}

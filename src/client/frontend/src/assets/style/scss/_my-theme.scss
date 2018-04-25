@@ -1,0 +1,294 @@
+
+.primary {
+  color: $border-color;
+}
+
+.danger {
+  color: $brand-danger;
+}
+
+.ivu-form .ivu-form-item-label {
+  color: $light-blue-line !important;
+}
+
+.ql-toolbar.ql-snow {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.ivu-select-dropdown-list{
+  .ivu-select-item{
+    display: block;
+  }
+}
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder, .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+  height: 40px!important;
+  line-height: 40px!important;
+  padding-left: 20px!important;
+}
+.ivu-select-visible .ivu-select-selection{
+  border-color: $border-color!important;
+}
+.ivu-select-item-selected, .ivu-select-item-selected:hover{
+  background: $border-color!important;
+}
+.ql-container.ql-snow {
+  min-height: 200px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.ivu-col {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.label-text {
+  color: $black-text-color;
+}
+
+.ivu-select-selection {
+  border-radius: 14px !important;
+  height: 40px !important;
+}
+
+.ivu-layout {
+  background: $background-color !important;
+}
+
+.ivu-breadcrumb {
+  margin-top: 20px;
+  a {
+    color: $black-text-color !important;
+  }
+  .ivu-breadcrumb-item-separator {
+    color: $gray-text-color !important;
+  }
+}
+.ivu-radio-wrapper-checked,.ivu-checkbox-wrapper-checked{
+  border-color: $border-color!important;
+}
+
+
+.ivu-btn-primary {
+  background-image: linear-gradient(45deg,
+    $primary-color 0%,
+    $primary-dark-bg 100%),
+  linear-gradient(
+      $primary-light-bg,
+      $primary-light-bg) !important;
+  box-shadow: 0px 4px 8px 0px rgba(255, 212, 100, 0.4) !important;
+  border-radius: 20px !important;
+  color: $gray-font-color !important;
+  border-color: transparent !important;
+}
+.ivu-spin{
+  color: $border-color!important;
+}
+
+.ivu-radio-checked .ivu-radio-inner{
+  border-color: $border-color!important;
+}
+.ivu-radio-inner:after{
+  background: $primary-color!important;
+}
+.ivu-checkbox-checked .ivu-checkbox-inner{
+  border-color: $border-color!important;
+  background: $primary-color!important;
+}
+
+.ivu-btn-primary:hover {
+  background-image: linear-gradient(45deg,
+    $primary-dark-bg 0%,
+    $border-color 100%),
+  linear-gradient(
+      $primary-dark-bg,
+      $border-color) !important;
+  color: $gray-font-color!important;
+}
+
+.ivu-page-item-active {
+  background: $primary-color !important;
+  border-color: $border-color !important;
+  a {
+    color: $gray-font-color !important;
+  }
+}
+
+.ivu-page-item:hover {
+  border-color: $border-color !important;
+  a {
+    color: $border-color !important;
+  }
+}
+
+.ivu-input {
+  height: 40px !important;
+  border-color: $gray-line-color !important;
+  border-radius: 20px !important;
+  padding: 4px 20px !important;
+}
+
+.ivu-menu-horizontal.ivu-menu-light:after {
+  background: transparent !important;
+}
+
+.ivu-rate-star-full:before, .ivu-rate-star-half .ivu-rate-star-content:before {
+  color: $primary-color !important;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover {
+  border-color: $primary-color !important;
+  color: $light-blue-line !important;
+}
+
+.ivu-menu-vertical .ivu-menu-item:hover {
+  background: transparent !important;
+}
+
+.ivu-modal-header {
+  border: none !important;
+  padding: 20px 20px 14px 20px !important;
+  span {
+    font-size: 20px;
+    color: $gray-font-color;
+  }
+}
+
+.ivu-modal-footer {
+  border: none !important;
+  padding-bottom: 20px !important;
+}
+
+.ivu-modal {
+  top: 25% !important;
+}
+
+.ivu-menu-light {
+  background: transparent !important;
+}
+
+.ivu-menu-vertical.ivu-menu-light:after {
+  background: transparent !important;
+}
+
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  border-right: none !important;
+  z-index: 2;
+  a {
+    color: $gray-font-color !important;
+    padding: 15px 0 13px 0;
+    border-bottom: 2px solid $primary-color;
+  }
+}
+
+.ivu-btn-ghost:hover {
+  color: $border-color!important;
+  background-color: transparent;
+  border-color: $border-color!important;
+}
+
+.error input {
+  border-color: #f57f6c !important;
+}
+
+.form-error-text {
+  color: #f57f6c;
+}
+
+.error input:focus {
+  outline-color: #f57f6c !important;
+}
+
+.valid input {
+  border-color: #5A5 !important;
+}
+
+.valid input:focus {
+  outline-color: #8E8 !important;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1208px;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.ivu-menu-item-group {
+  width: 100%;
+}
+
+.ivu-collapse {
+  background: #2E2E2E;
+}
+
+.ivu-collapse > .ivu-collapse-item > .ivu-collapse-header {
+  color: $background-color;
+}
+
+.el-header, .el-footer {
+  padding: 0;
+
+}
+
+//底部
+.footer-bg {
+  position: relative;
+  background: rgb(28,28,28);
+}
+
+.footer-content {
+  position: relative;
+  padding: 20px 0 20px 0;
+}
+
+.footer-statement {
+  margin-top: 40px;
+  color: $white-dark-bg;
+  .statement {
+    display: inline-block;
+    margin: 0 95px;
+    p{
+      margin-top: 15px;
+      font-size: $font-size-large;
+    }
+  }
+}
+.footer-router{
+  margin: 40px 0;
+  a{
+    color: $white-dark-bg;
+    margin: 0 40px;
+  }
+}
+.footer-contact{
+  padding-top: 30px;
+  border-top: 1px solid $black-text-color;
+  color: $white-dark-bg;
+}
+.footer-text{
+  margin-top: 10px;
+}
+
+.ivu-layout-footer {
+  margin-top: 100px;
+  position: relative;
+  color: $white-dark-bg;
+  text-align: center;
+  padding: 0 !important;
+  background: rgb(28,28,28)!important;
+}
+

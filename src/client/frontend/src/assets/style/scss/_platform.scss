@@ -1,0 +1,534 @@
+//首頁
+.home-selected {
+  margin: 55px 0 40px 0;
+}
+
+.home-travel {
+  position: relative;
+  min-height: 710px;
+  .home-travel-bg {
+    position: absolute;
+  }
+  .home-travel-main {
+    padding: 80px 0 0;
+    .home-travel-title {
+      margin-bottom: 40px;
+      font-size: $font-size-h2;
+      color: $white-text-color;
+    }
+    .home-travel-more {
+      padding: 10px 57px;
+      margin-top: 35px;
+      display: inline-block;
+    }
+  }
+}
+
+.home-order {
+  border-bottom: 1px solid $input-text-color;
+  margin: 60px 0 0px 0;
+}
+
+.home-domestic {
+  .home-domestic-contaier {
+    margin-top: 40px;
+  }
+}
+
+.home-domestic-bg {
+  position: relative;
+  .home-position {
+    position: absolute;
+    right: 35%;
+    top: 20%;
+    .city-menu {
+      margin-top: 40px;
+      background-color: $white-text-color;
+      box-shadow: 0px 12px 16px 0px rgba(22, 151, 96, 0.2);
+      border-radius: 30px;
+      padding: 10px 45px;
+      .city-name {
+        margin: 0 10px;
+        cursor: pointer;
+        padding: 10px 0;
+      }
+      .city-name:before {
+        bottom: 0;
+      }
+      .city-name:hover {
+        color: $gray-font-color;
+      }
+    }
+  }
+}
+
+.home-more-content {
+  margin-top: 60px;
+  .home-more {
+    padding: 10px 65px;
+  }
+}
+
+//旅行社列表
+.travel-list {
+  margin-top: 55px;
+}
+
+//国外游列表
+.abroad-list-container {
+  margin-top: 60px;
+  .abroad-list-host {
+    padding: 40px 0;
+
+    .abroad-list-item {
+      display: inline-block;
+      width: 19%;
+      text-align: center;
+      margin: 30px 0;
+      position: relative;
+      cursor: pointer;
+      .abroad-list-host-text {
+        position: absolute;
+        top: 40%;
+        right: 40%;
+        font-size: 20px;
+        color: $white-text-color;
+      }
+    }
+    .abroad-list-item:nth-child(2) {
+      text-align: left !important;
+      .abroad-list-host-text {
+        right: 55% !important;
+      }
+    }
+    .abroad-list-item:nth-child(7) {
+      text-align: left !important;
+      .abroad-list-host-text {
+        right: 55% !important;
+      }
+    }
+  }
+  .abroad-more {
+    padding: 10px 65px;
+  }
+  .abroad-list-product {
+    margin-top: 40px;
+    .home-title {
+      padding: 0 10px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+//平台商品详情
+.product-breadcrumb {
+  margin-bottom: 40px;
+}
+
+.product-detail-left {
+  padding-right: 10px;
+}
+
+.product-detail-right {
+  padding-left: 10px;
+  .product-title {
+    font-size: 20px;
+    color: $light-blue-line;
+  }
+  .objective {
+    margin-top: 20px;
+    .icon {
+      margin-right: 5px;
+    }
+  }
+  .product-price {
+    margin: 40px 0 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid $input-text-color;
+    .money {
+      color: $border-color;
+      font-size: 20px;
+    }
+    .price {
+      color: $black-text-color;
+      margin-left: 20px;
+    }
+  }
+  .product-specifications {
+    .product-type {
+      margin-bottom: 20px;
+      .name {
+        font-size: $font-size-large;
+        color: $light-blue-line;
+      }
+    }
+    .ivu-btn-ghost {
+      border-radius: 20px;
+      margin-left: 30px;
+      padding: 10px 25px;
+    }
+    .active {
+      color: $border-color !important;
+      background-color: transparent;
+      border-color: $border-color !important;
+    }
+    .product-select-date {
+      margin-left: 40px;
+    }
+    .product-btn-content {
+      margin-top: 25px;
+      button {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 20px;
+      }
+    }
+    .ivu-input-number-focused {
+      box-shadow: none !important;
+    }
+    .ivu-input-number {
+      border: none !important;
+      width: 30px !important;
+    }
+    .ivu-input-number:hover .ivu-input-number-handler-wrap {
+      opacity: 0 !important;
+    }
+    .ivu-input-number-input {
+      color: $border-color !important;
+      font-size: $font-size-large;
+    }
+    .ivu-input-number-handler-wrap {
+      display: none;
+    }
+    .adultsNumber {
+      margin-left: 30px;
+      i {
+        color: $border-color;
+        cursor: pointer;
+      }
+      .text {
+        margin-left: 10px;
+        color: $light-blue-line;
+      }
+    }
+  }
+
+}
+
+.product-img-item-content {
+  .product-img-item {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 19.23%;
+    display: inline-block;
+    img {
+      width: 112px;
+      height: 78px;
+    }
+  }
+  .product-img-item:hover {
+    border: 2px solid $primary-color;
+  }
+  .product-img-item-active {
+    border: 2px solid $primary-color;
+  }
+}
+
+.product-detail-container {
+  margin-top: 50px;
+  .product-detail-content-left {
+    padding-right: 40px;
+    margin-bottom: 100px;
+    .ivu-tabs-bar {
+      border: none;
+      padding-top: 10px;
+      .ivu-tabs-tab {
+        font-size: $font-size-large;
+      }
+      .ivu-tabs-tab-active {
+        color: $gray-font-color;
+      }
+      .ivu-tabs-ink-bar {
+        background: $primary-color !important;
+      }
+      .ivu-tabs-nav .ivu-tabs-tab:hover {
+        color: $primary-color !important;
+      }
+    }
+    .characteristic {
+      font-size: $font-size-large;
+      color: $light-blue-line;
+    }
+    .cost-contain, .cost-no-contain {
+
+      font-size: 20px;
+      color: $gray-font-color;
+      .title {
+        margin-bottom: 20px;
+      }
+      li {
+        display: block;
+        font-size: $font-size-large;
+        color: $light-blue-line;
+      }
+    }
+    .cost-no-contain {
+      margin-top: 40px;
+    }
+    .cost-contain {
+      padding-bottom: 40px;
+      border-bottom: 1px solid $input-text-color;
+    }
+    .notice-title {
+      font-size: 20px;
+      color: $gray-font-color;
+      margin-bottom: 20px;
+    }
+    .notice-text {
+      font-size: $font-size-large;
+      color: $light-blue-line;
+    }
+    .evaluate-list-head, .evaluate-list {
+      border-bottom: 1px solid $input-text-color;
+      .evaluate-title {
+        text-align: center;
+        color: $gray-text-color;
+        font-size: 20px;
+        .title {
+          color: $gray-font-color;
+        }
+      }
+      .ivu-rate-star-full:before, .ivu-rate-star-half .ivu-rate-star-content:before {
+        color: $border-color !important;
+      }
+      .evaluate-list-btn {
+        margin-top: 20px;
+        padding: 10px 65px;
+        margin-bottom: 40px;
+      }
+    }
+    .evaluate-list {
+      padding: 30px 0;
+      .description {
+        font-size: $font-size-large;
+        color: $light-blue-line;
+        margin-bottom: 20px;
+      }
+      .text {
+        font-size: $font-size-large;
+        color: $black-text-color;
+        margin-right: 30px;
+      }
+      .evaluate-date {
+        font-size: $font-size-large;
+        color: $black-text-color;
+        margin-top: 20px;
+        .date {
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+}
+
+//参考行程
+.reference {
+  margin-top: 15px;
+  .reference-left {
+    button {
+      border-color: transparent;
+      color: $gray-font-color;
+      border-radius: 16px;
+      padding: 8px 30px;
+    }
+
+    .active {
+      background: $primary-color;
+    }
+    .ivu-timeline-item-tail {
+      right: 11px !important;
+      z-index: 199999;
+      border-right: 2px solid $primary-color !important;;
+      border-left: none;
+    }
+    .ivu-timeline-item-content {
+      padding-left: 0 !important;
+    }
+    .ivu-timeline-item-head {
+      right: 6px !important;
+      z-index: 999 !important;
+      top: 10px !important;
+    }
+  }
+  .reference-right .ivu-timeline {
+    .ivu-timeline-item-content {
+      padding-left: 30px !important;
+    }
+    .ivu-timeline-item {
+      width: 100%;
+    }
+    .time-title {
+      font-size: 20px;
+      color: #1e1e1e;
+      margin-bottom: 20px;
+    }
+    .content {
+      color: $gray-text-color;
+      font-size: $font-size-base;
+      padding-bottom: 20px;
+      border-bottom: 1px solid $input-text-color;
+      .content-head {
+        font-size: $font-size-large;
+        color: #1e1e1e;
+      }
+      .margin-bottom-20 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+//平台商品订单详情
+.product-detail-order {
+  margin-top: 40px;
+  .order-title {
+    font-size: 30px;
+    color: $light-blue-line;
+    margin-bottom: 38px;
+  }
+  .product-detail-order-profiles {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 6px solid $black-dark-bg;
+    .product-detail-order-profiles-left {
+      .title {
+        font-size: 20px;
+        color: $light-blue-line;
+      }
+      .content {
+        margin-top: 40px;
+        font-size: $font-size-large;
+        p {
+          margin-bottom: 30px;
+          color: $black-text-color;
+          .text {
+            margin-left: 30px;
+            color: $light-blue-line;
+          }
+        }
+      }
+      .ivu-input-number-focused {
+        box-shadow: none !important;
+      }
+      .ivu-input-number {
+        border: none !important;
+        width: 30px !important;
+      }
+      .ivu-input-number:hover .ivu-input-number-handler-wrap {
+        opacity: 0 !important;
+      }
+      .ivu-input-number-input {
+        color: $border-color !important;
+        font-size: $font-size-large;
+      }
+      .ivu-input-number-handler-wrap {
+        display: none;
+      }
+      .adultsNumber {
+        margin-left: 30px;
+        i {
+          color: $border-color;
+          cursor: pointer;
+        }
+        .text {
+          margin-left: 10px;
+          color: $light-blue-line;
+        }
+      }
+      .ivu-btn-ghost {
+        border-radius: 20px;
+        padding: 10px 25px;
+      }
+      .active {
+        color: $border-color !important;
+        background-color: transparent;
+        border-color: $border-color !important;
+      }
+    }
+    .product-detail-order-profiles-right {
+      .title {
+        font-size: 20px;
+        color: $light-blue-line;
+      }
+      .content {
+        font-size: $font-size-large;
+        .text {
+          color: $black-text-color;
+        }
+      }
+      .totals {
+        font-size: 20px;
+        color: $brand-danger;
+      }
+    }
+  }
+  .product-detail-order-contact {
+    border-bottom: 6px solid $black-dark-bg;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    .title {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: $light-blue-line;
+    }
+    .text {
+      font-size: $font-size-base;
+      margin-left: 20px;
+    }
+    .order-submit {
+      margin-top: 15px;
+      padding: 10px 50px;
+    }
+    .traveling-title {
+      font-size: 20px;
+      color: $border-color;
+      i {
+        margin-right: 10px;
+      }
+    }
+    .margin-right-10{
+      margin-right: 10px;
+    }
+    .traveling-content .traveling-item {
+      margin-right: 20px;
+    }
+  }
+  .product-detail-order-contact:last-child {
+    border: none;
+  }
+}
+
+@media(min-width: 1025px) and (max-width: 1280px) {
+  .home-domestic-bg .home-md {
+    right: 29% !important;
+    top: 1% !important;
+    .home-title {
+      margin-top: 20px !important;
+    }
+    .city-menu {
+      margin-top: 10px !important;
+    }
+  }
+  .travel-home-md {
+    top: 45% !important;
+    right: 46% !important;
+  }
+  .travel-home-bg img {
+    height: 140px;
+  }
+  .travel-bg-md img {
+    width: 100% !important;
+    height: 708px !important;
+  }
+}

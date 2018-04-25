@@ -1,0 +1,131 @@
+.auth-container {
+  min-height: 850px;
+  margin-bottom: 100px;
+  .auth-title {
+    color: #5a3662;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: $font-size-h2;
+  }
+  .settled-title{
+    padding-left: 20px;
+    color: $light-blue-line;
+  }
+  .id-pic{
+    color: $gray-text-color;
+    font-size: $font-size-base;
+  }
+  .read-text {
+    color: $black-text-color;
+  }
+  .auth-submit {
+    margin-top: 40px;
+    padding: 12px 116px;
+  }
+  .auth-link {
+    margin-top: 40px;
+    a {
+      color: $light-blue-line;
+    }
+  }
+  .settled-text {
+    font-size: $font-size-large;
+    margin-bottom: 60px;
+  }
+  .auth-step-page {
+    border-top: none;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $input-text-color;
+  }
+  .auth-password {
+    margin-top: 60px;
+  }
+  .auth-captcha {
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: rgba(183, 183, 183, 0.2);
+  }
+  .forget-password-success {
+    i{
+      color: $primary-color;
+    }
+    h2 {
+      margin: 20px 0;
+      font-size: 20px;
+      color: $light-blue-line;
+    }
+    p {
+      font-size: $font-size-base;
+    }
+    a{
+      color: $gray-font-color;
+    }
+  }
+}
+.auth-settled-examine{
+  .success,.failed{
+    margin-top: 50px;
+    text-align: center;
+    i{
+      color: $primary-color;
+    }
+    h2{
+      font-size: 20px;
+      color: $light-blue-line;
+    }
+    p{
+      margin: 10px 0 30px 0;
+    }
+  }
+}
+.login-container {
+  margin-top: 20px;
+  .login-bg {
+    position: relative;
+    border-bottom: 1px solid $input-text-color;
+    .bg_img{
+      width: 100%;
+      height: 549px;
+    }
+  }
+  .login-form {
+    padding: 0 40px 40px 40px;
+    min-width: 380px;
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    .login-submit {
+      margin-top: 16px;
+      width: 100%;
+      padding: 10px;
+    }
+    .login-router {
+      margin-top: 16px;
+      a {
+        color: $light-blue-line;
+      }
+    }
+  }
+  .logon-bg2 {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+  }
+}
+
+.verification-content {
+  position: relative;
+  .verification {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    a{
+      font-size: 12px;
+      line-height: 1;
+      margin-top: 0;
+    }
+  }
+}

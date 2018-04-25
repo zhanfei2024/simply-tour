@@ -1,0 +1,93 @@
+{
+  "existUserLanguage": {
+    "statusCode": 400,
+    "message": "You have created that already.",
+    "code": 11000
+  },
+  "existUserExpecJob": {
+    "statusCode": 400,
+    "message": "You have created that already.",
+    "code": 11001
+  },
+  "existRole": {
+    "statusCode": 400,
+    "message": "You have defined role already.",
+    "code": 11002
+  },
+  "chooseRole": {
+    "statusCode": 400,
+    "message": "You must be choose an role.",
+    "code": 11003
+  },
+  "notEnoughBalance": {
+    "statusCode": 400,
+    "message": "Do not have enough balance.",
+    "code": 11004
+  },
+  "rechargeFail": {
+    "statusCode": 400,
+    "message": "Recharge failed.",
+    "code": 11005
+  },
+  "categoryNotExists": {
+    "statusCode": 400,
+    "message": "Please choose expect position category subcategory",
+    "code": 11006
+  },
+  "locationNotExists": {
+    "statusCode": 400,
+    "message": "Please choose location subcategory",
+    "code": 11007
+  },
+  "loginFail": {
+    "statusCode": 200,
+    "message": "Password or account error",
+    "code": 11008
+  },
+  "schoolInvalid": {
+    "statusCode": 400,
+    "message": "you school invalid",
+    "code": 11009
+  },
+  "appNotFound": {
+    "statusCode": 400,
+    "message": "login Invalid",
+    "code": 11010
+  } ,
+  "validateFailed": {
+    "statusCode": 400,
+    "message": "Validate Failed",
+    "code": 11011
+  },
+  "validateTimeout": {
+    "statusCode": 400,
+    "message": "request timeout",
+    "code": 110012
+  },
+  "NOSchool": {
+    "statusCode": 400,
+    "message": "this school no collection",
+    "code": 110013
+  },
+  "VerificationOrPassword": {
+    "statusCode": 400,
+    "message": "Verification code or password is wrong",
+    "code": 110014
+  },
+  "LogoutUser": {
+    "statusCode": 400,
+    "message": "The system detects that you have logged on to the web page. Please close the page and try again after 10 minutes",
+    "code": 110015
+  }  ,
+  "AuthorizationInvalid": {
+    "statusCode": 400,
+    "message": "License invalid, go to authorization, click the top right corner refresh button to reupdate the course.",
+    "code": 110016
+  },
+  "applyExists": {
+    "statusCode": 400,
+    "message": "The application record has already existed.",
+    "code": 110016
+  }
+}
+

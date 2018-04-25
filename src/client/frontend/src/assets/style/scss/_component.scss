@@ -1,0 +1,188 @@
+//商品列表組件
+.product-item {
+  .product-item-container {
+    border-radius: 14px;
+    border: solid 1px $input-text-color;
+    margin: 0 10px 20px 10px;
+    overflow: hidden;
+    .help{
+      position: absolute;
+      z-index: 9999999;
+      left: 40px;
+      .text{
+        position: absolute;left: 15px;
+        color: $gray-font-color;
+      }
+    }
+    .hovereffect {
+      width: 100%;
+      height: 100%;
+      float: left;
+      overflow: hidden;
+      position: relative;
+      text-align: center;
+      cursor: default;
+    }
+
+    .hovereffect .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .hovereffect h2, .hovereffect img {
+      border-top-right-radius: 14px;
+      border-top-left-radius: 14px;
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .hovereffect img {
+      display: block;
+      position: relative;
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    .hovereffect h2 {
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      font-size: 17px;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    .hovereffect a.info {
+      display: inline-block;
+      text-decoration: none;
+      padding: 7px 14px;
+      text-transform: uppercase;
+      color: #fff;
+      margin: 50px 0 0 0;
+      background-color: transparent;
+      opacity: 0;
+      filter: alpha(opacity=0);
+      -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      transform: scale(1.5);
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      font-weight: normal;
+      height: 85%;
+      width: 85%;
+      position: absolute;
+      top: -20%;
+      left: 8%;
+      padding: 40px 20px;
+      .buy{
+        color:$border-color;
+        border: 1px solid  $border-color;
+        padding: 5px 15px;
+        margin-top: 10px;
+        border-radius: 14px;
+      }
+    }
+
+    .product-title {
+      font-size: $font-size-large;
+      color: $light-blue-line;
+      line-height: 30px;
+      padding: 20px;
+    }
+    .product-money {
+      color: $brand-danger;
+      font-size: 20px;
+    }
+    .product-text {
+      padding: 0 20px;
+      color: $black-text-color;
+      padding-bottom: 25px;
+    }
+    .product-address {
+      line-height: 28px;
+    }
+  }
+  .product-item-container:hover {
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.1);
+    .overlay {
+      background: linear-gradient(to right,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%);
+    }
+    a.info {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    img {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+}
+
+//旅行社列表组件
+.travel-item{
+  img{
+    border-radius: 14px;
+    height: 400px;
+  }
+  .travel-content{
+    position: relative;
+    margin: 0 10px 20px 10px;
+  }
+  .travel-name{
+    border: 1px solid $input-text-color;
+    border-top: none;
+    background: $white-text-color;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    font-size: $font-size-large;
+    text-overflow: ellipsis;
+    color: $light-blue-line;
+  }
+}
+.travel-item:hover{
+  .travel-name{
+    background: transparent;
+    color: $white-text-color;
+  }
+}
+
+
+//無數據
+.no-data{
+  min-height: 300px;
+  i{
+    margin-top: 50px;
+    color: $primary-color;
+  }
+  .no-text{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    color: $light-blue-line;
+  }
+  .no-submit{
+    padding: 8px 66px;
+  }
+  a{
+    color: $light-blue-line;
+  }
+}

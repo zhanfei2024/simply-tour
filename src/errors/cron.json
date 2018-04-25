@@ -1,0 +1,7 @@
+{
+  "jobTypeNotFound": {
+    "statusCode": 400,
+    "message": "jobType not found.",
+    "code": 22000
+  }
+}

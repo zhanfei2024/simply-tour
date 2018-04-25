@@ -1,0 +1,22 @@
+{
+  "destinationValidity": {
+    "statusCode": 400,
+    "message": "Please choose validity destination.",
+    "code": 16000
+  },
+  "setOutValidity": {
+    "statusCode": 400,
+    "message": "Please choose validity set out.",
+    "code": 16001
+  },
+  "chooseSubclass": {
+    "statusCode": 400,
+    "message": "Please select subclassification.",
+    "code": 16002
+  },
+  "limitRecord": {
+    "statusCode": 400,
+    "message": "The details of the route can only be created.",
+    "code": 16003
+  }
+}

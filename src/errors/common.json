@@ -1,0 +1,27 @@
+{
+  "notFound": {
+    "statusCode": 404,
+    "message": "Not found",
+    "code": 404
+  },
+  "dataError": {
+    "statusCode": 404,
+    "message": "Data Error",
+    "code": 400
+  },
+  "invalidDate": {
+    "statusCode": 400,
+    "message": "The start date should be less than the end date.",
+    "code": 405
+  },
+  "isMyConponInvalid":{
+    "statusCode": 400,
+    "message": "Invalid two-dimensional code.",
+    "code": 406
+  },
+  "isExistMessage":{
+    "statusCode": 400,
+    "message": "The message is exist.",
+    "code": 406
+  }
+}

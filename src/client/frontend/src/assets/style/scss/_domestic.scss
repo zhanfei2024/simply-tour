@@ -1,0 +1,212 @@
+//宽高
+@mixin wh($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+//字体大小，颜色
+@mixin sc($size, $color) {
+	font-size: $size;
+	color: $color;
+}
+
+//字体大小、行高、字体
+@mixin font($size, $line-height, $family: 'Microsoft YaHei') {
+	//font: 0.4rem/1rem '.';
+	font: #{$size}/#{$line-height} $family;
+}
+
+//定位上下左右居中
+@mixin center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+//定位上下居中
+@mixin ct {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+//定位左右居中
+@mixin cl {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+//flex 布局和 子元素 对其方式  默认两端对齐
+@mixin fj($type: space-between) {
+	display: flex;
+	justify-content: $type;
+}
+
+// 背景图片地址和大小
+@mixin bis($url) {
+	//background: url(../../assets/img/ic-delete.png) no-repeat 0/100%;
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+//兼容圆角
+@mixin borderRadius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}
+
+//定位全屏
+@mixin allcover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+// css reset
+
+input,button{border-style: none;outline-style: none;}
+.clear{*zoom:1;}
+.clear:after{display:table; content:''; clear:both;}
+.left{float:left;}
+.right{float:right;}
+.auto{margin-left:auto; margin-right:auto;}
+
+// 起始目的地
+.top_tip {
+	@include wh(1200px, 200px);
+	padding: 40px 182px;
+	background-color: #fff;
+	border-top: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	margin: 60px 0;
+	.tip_box {
+		@include wh(100%, 100%);
+		position: relative;
+		.place {
+			@include wh(100%,40px);
+			@include fj;
+			.start_place, .end_place{
+				@include wh(300px,40px);
+				border: solid 1px #dcdcdc;
+				@include borderRadius(20px);
+				background-color: #ffffff;
+				line-height: 40px;
+				padding-left: 21px;
+			}
+		}
+		.go_now {
+			@include cl;
+			bottom: 0%;
+			@include wh(200px,40px);
+			@include borderRadius(20px);
+			background-image: linear-gradient(45deg, #ffe775 0%, #ffd464 100%), linear-gradient( #ffffff, #ffffff);
+			background-blend-mode: normal, normal;
+			box-shadow: 0px 4px 8px 0px rgba(255, 212, 100, 0.4);
+			i {
+				@include center;
+				@include font(16px,34px,'PingFangSC-Regular');
+				color: #000;
+			}
+		}
+	}
+}
+.travel_list_left{
+  margin-right: 40px;
+}
+
+// 地区选择
+.inland {
+	@include font(30px,34px,'PingFangSC-Regular');
+	letter-spacing: 2px;
+	color: #5a3662;
+}
+
+.inland_place, .inland_type {
+	padding: 20px 0;
+	border-bottom: 1px solid #dcdcdc;
+	.title {
+		display: inline-block;
+		@include wh(93px,100%);
+		@include font(16px,34px,PingFangSC-Regular);
+		color: #a0a0a0;
+	}
+	li {
+		float: left;
+		@include wh(auto,31px);
+		padding: 0px 14px;
+		@include font(16px,34px,PingFangSC-Regular);
+		letter-spacing: 1px;
+		color: #646464;
+		&.select {
+			color: #212121;
+			border-bottom: 2px solid #ffe775;
+		}
+	}
+}
+
+.inland_place {
+	@include wh(100%,103px);
+
+}
+
+.inland_type {
+	@include wh(100%,67px);
+}
+
+// 旅游列表
+.travel_list {
+	li {
+		@include wh(100%,180px);
+		padding: 20px 0;
+		border-bottom: 1px solid #dcdcdc;
+		@include fj;
+		.travel_img {
+			flex-basis: 200px;
+			margin-right: 20px;
+			img {
+				@include wh(200px,140px);
+				background-color: #e8e8e8;
+				border-radius: 14px;
+			}
+		}
+		.travel_info {
+			flex: 1;
+			padding: 10px 0;
+			margin-right: 20px;
+			@include fj;
+			flex-direction: column;
+			.travel_title {
+				@include font(20px,34px,PingFangSC-Regular);
+				letter-spacing: 1px;
+				color: #3c3c3c;
+        font-style: normal;
+			}
+			.travel_place {
+				padding-left: 25px;
+				@include font(16px,34px,PingFangSC-Regular);
+				letter-spacing: 1px;
+				color: #3c3c3c;
+			}
+			.travel_price {
+				padding-left: 40px;
+				@include font(20px,34px,PingFangSC-Regular);
+				letter-spacing: 1px;
+				color: #fa5b75;
+			}
+		}
+	}
+}
+
+// 分页
+.paging {
+	margin-top: 60px;
+	margin-left: calc((100%) / 2);
+}

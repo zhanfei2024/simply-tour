@@ -1,0 +1,270 @@
+.user-container {
+  margin: 20px 0 140px;
+  min-height: 680px;
+  .ivu-menu {
+    width: 100% !important;
+    .ivu-menu-item-group-title {
+      margin-bottom: 15px;
+      margin-top: 25px;
+      color: $light-blue-line;
+      font-size: 20px;
+      line-height: 34px;
+      height: auto;
+      padding-left: 0;
+    }
+    .ivu-menu-item {
+      padding-left: 0;
+      padding-right: 0 !important;
+      a {
+        color: $gray-text-color;
+        font-size: $font-size-large;
+      }
+    }
+    .ivu-menu-item-group:first-child .ivu-menu-item-group-title {
+      margin-top: 0;
+    }
+  }
+}
+
+.container-left {
+  min-height: 630px;
+  border-radius: 14px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-right: 10px;
+  border: solid 1px $gray-line-color;
+}
+
+.container-right {
+  margin-left: 10px;
+}
+
+//个人中心
+
+.order-body, .line-body, .profile, .security {
+  border-radius: 14px;
+  border: solid 1px $gray-line-color;
+  min-height: 600px;
+}
+
+.security, .profile {
+  min-height: 800px;
+}
+
+.line-body {
+  margin-top: 40px;
+  .product-body {
+    padding: 40px 20px 20px;
+  }
+}
+
+//个人资料
+.profile-body, .security-body {
+  border-top: 1px solid $input-text-color;
+  padding: 40px;
+  .profile-submit {
+    margin-top: 35px;
+    padding: 9px 84px;
+  }
+  .ivu-btn-ghost {
+    border-radius: 20px;
+    padding: 10px 68px;
+  }
+  .margin-left {
+    margin-left: 20px;
+  }
+  .active {
+    color: $border-color !important;
+    background-color: transparent;
+    border-color: $border-color !important;
+  }
+}
+
+//安全设置
+.security-body {
+  padding: 0;
+  .security-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: $light-blue-line;
+  }
+  .security-text {
+    font-size: $font-size-large;
+  }
+  .security-item {
+    position: relative;
+    padding: 30px 20px;
+    padding-left: 35px;
+    border-bottom: 1px solid $input-text-color;
+    .routerLink {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+    }
+  }
+}
+
+//订单管理
+.order-list {
+  .order-item {
+    border-top: 1px solid #DCDCDC;
+  }
+  .order-head {
+    margin-bottom: 10px;
+  }
+  .order-code {
+    margin-left: 40px;
+  }
+  .padingTop {
+    padding: 26px 20px;
+    padding-left: 20px !important;
+  }
+
+  .order-right {
+    min-height: 159px;
+    border-right: 1px solid #DCDCDC;
+  }
+
+  .order-title {
+    font-size: 16px;
+    color: #3c3c3c;
+    margin-bottom: 15px;
+  }
+
+  .order-item .text {
+    color: #646464;
+    margin-bottom: 13px;
+  }
+
+  .order-item .image {
+    width: 148px;
+    height: 98px;
+    border-radius: 10px;
+  }
+
+  .order-item .money {
+    color: #fa5b75;
+    font-size: 20px;
+
+  }
+  .line-height {
+    line-height: 159px;
+  }
+  .line-heights {
+    line-height: 190px;
+  }
+
+  .order-item .order-link a {
+    color: #3c3c3c;
+    margin-top: 55px;
+    display: inline-block;
+    font-size: 16px;
+    border-bottom: 1px solid #3c3c3c;
+  }
+
+  .order-item .order-link .text {
+    color: #a0a0a0;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .order-evaluate-text {
+    margin-top: 45px;
+  }
+}
+
+.order-link a {
+  color: #3c3c3c;
+  margin-top: 55px;
+  display: inline-block;
+  font-size: 16px;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.order-body {
+  .order-menu {
+    padding: 5px 20px 0;
+    .ivu-menu {
+      .ivu-menu-item {
+        margin-right: 99px;
+        font-size: 20px;
+        color: $gray-text-color;
+      }
+    }
+  }
+}
+
+//收藏
+.collection-body {
+  padding: 30px 10px;
+  border-top: 1px solid $input-text-color;
+}
+
+//發佈評價
+.evaluate-post {
+  border-top: 1px solid $input-text-color;
+  padding: 40px 25px;
+}
+
+.evaluate-post-product {
+  padding-bottom: 30px;
+  border-bottom: 1px solid $input-text-color;
+  .evaluate-post-product-head {
+    color: $black-text-color;
+    margin-bottom: 15px;
+  }
+  .image {
+    width: 148px;
+    height: 98px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+  .title {
+    color: $light-blue-line;
+    font-size: $font-size-large;
+    margin-bottom: 18px;
+  }
+  .text-bottom {
+    margin-bottom: 15px;
+  }
+  .price {
+    color: $light-blue-line;
+  }
+}
+
+.evaluate-post-form {
+  padding-top: 40px;
+  .evaluate-description {
+    color: $light-blue-line;
+    margin-bottom: 25px;
+  }
+  .ivu-form .ivu-form-item-label {
+    color: $gray-font-color;
+    font-size: 20px;
+  }
+  textarea.ivu-input {
+    min-height: 165px !important;
+  }
+  .evaluate-post-submit {
+    padding: 8px 40px;
+  }
+}
+
+.m-evaluate-post-product {
+  padding-top: 40px;
+}
+
+.m-evaluate-post-item:first-child .m-evaluate-post-product {
+  padding-top: 0;
+}
+
+.m-evaluate-post-form {
+  padding-bottom: 20px;
+  border-bottom: 6px solid $black-dark-bg;
+  .evaluate-post-submit {
+    padding: 8px 85px;
+  }
+}
+
+.m-evaluate-post-item:last-child .m-evaluate-post-form {
+  border: none;
+}

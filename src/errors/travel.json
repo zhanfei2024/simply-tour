@@ -1,0 +1,27 @@
+{
+  "alreadyExists": {
+    "statusCode": 400,
+    "message": "The current account travel agency has been opened.",
+    "code": 2000
+  },
+  "limitUploadImage": {
+    "statusCode": 400,
+    "message": "At most, only 10 pictures can be uploaded.",
+    "code": 2001
+  },
+  "createTravel": {
+    "statusCode": 400,
+    "message": "Please create a travel agency first.",
+    "code": 2002
+  },
+  "onlyOne": {
+    "statusCode": 400,
+    "message": "The coupon code can only be used once.",
+    "code": 2003
+  },
+  "approvedLimit": {
+    "statusCode": 400,
+    "message": "Please do not repeat the review.",
+    "code": 2004
+  }
+}

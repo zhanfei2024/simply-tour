@@ -1,0 +1,37 @@
+{
+  "orderNoInvalid": {
+    "statusCode": 400,
+    "message": "Invalid order number.",
+    "code": 40001
+  },
+  "orderExists": {
+    "statusCode": 400,
+    "message": "The order number has already existed.",
+    "code": 40002
+  },
+  "orderAmountError": {
+    "statusCode": 400,
+    "message": "The amount of payment must be equal to the amount of the order.",
+    "code": 40003
+  },
+  "can'tDestroy": {
+    "statusCode": 400,
+    "message": "The order must be in the following state to delete. close, unpaid, service complete, refunds have been completed and success.",
+    "code": 40004
+  },
+  "can'tDuplicatePayment": {
+    "statusCode": 400,
+    "message": "You can't repeat the payment.",
+    "code": 40005
+  },
+  "can'tUpdate": {
+    "statusCode": 400,
+    "message": "The user has paid, and you can't modify the order.",
+    "code": 40006
+  },
+  "can'tUpdateStatus": {
+    "statusCode": 400,
+    "message": "The order shall not be altered by the following loading:close，success，refunds_complete，refunds",
+    "code": 40007
+  }
+}

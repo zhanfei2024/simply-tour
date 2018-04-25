@@ -1,0 +1,22 @@
+{
+  "postCategoryNotExists": {
+    "statusCode": 400,
+    "message": "Please choose post category  subcategory",
+    "code": 16000
+  },
+  "PublicationInvalid": {
+    "statusCode": 400,
+    "message": "Please choose post category  subcategory",
+    "code": 16001
+  },
+  "permissionInvalid": {
+    "statusCode": 400,
+    "message": "No permission to publish",
+    "code": 16002
+  },
+  "chooseObject": {
+    "statusCode": 400,
+    "message": "Please choose the  bookmark object.",
+    "code": 16003
+  }
+}

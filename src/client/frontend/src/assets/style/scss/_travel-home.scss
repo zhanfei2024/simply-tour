@@ -1,0 +1,134 @@
+.travel-home-bg {
+  position: relative;
+}
+
+.travel-home-profile-content {
+  position: absolute;
+  top: 80px;
+  .travel-logo {
+    height: 60px;
+    float: left;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .travel-home-profile {
+    margin-left: 80px;
+    h2 {
+      color: #1e1e1e;
+      font-size: 20px;
+    }
+    .travel-reputation {
+      margin-top: 20px;
+      .reputation {
+        padding: 0 15px;
+        border-radius: 15px;
+        border: solid 1px $light-blue-line;
+      }
+      .reputation:first-child {
+        margin-right: 10px;
+      }
+      .collection {
+        background: $border-color;
+        border-radius: 15px;
+        color: $background-color;
+        padding: 2px 25px;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.travel-home-menu {
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.1);
+  background: $white-text-color;
+  position: relative;
+  top: -25px;
+  .ivu-menu {
+    .ivu-menu-item {
+      padding: 0 30px;
+      a {
+        color: $gray-text-color;
+      }
+    }
+    .ivu-menu-item:before {
+      bottom: 10px !important;
+    }
+    .ivu-menu-item:hover {
+      border-color: transparent !important;
+    }
+    .ivu-menu-item-active {
+      border: none !important;
+    }
+    .ivu-menu-item-active a {
+      color: $gray-font-color !important;
+    }
+  }
+}
+
+.travel-home-product {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.travel-home-left {
+  margin-right: 40px;
+  margin-bottom: 100px;
+  .home-title {
+    margin-bottom: 20px;
+  }
+  .home-title-padding {
+    padding: 0 10px;
+  }
+  .home-introduction {
+    color: $light-blue-line;
+  }
+}
+
+.product-recommend-title {
+  font-size: 20px;
+  color: $title-color;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.travel-home-right {
+  .product-recommend-item {
+    margin-bottom: 20px;
+    img {
+      border-top-right-radius: 14px;
+      border-top-left-radius: 14px;
+    }
+    .product-content {
+      border: 1px solid $input-text-color;
+      border-top: none;
+      padding: 10px;
+      border-bottom-right-radius: 14px;
+      border-bottom-left-radius: 14px;
+      .product-title {
+        font-size: $font-size-base;
+        color: $light-blue-line;
+      }
+      .product-text{
+        margin-top: 10px;
+      }
+      .product-money {
+        color: #ff6f6f;
+        font-size: $font-size-small;
+      }
+      .product-address {
+        font-size: $font-size-small;
+        color: $black-text-color;
+      }
+    }
+  }
+}
+
+.travel-concats{
+  margin-bottom: 40px;
+  p{
+    margin-bottom: 20px;
+    color: $light-blue-line;
+    font-size: 20px;
+  }
+}

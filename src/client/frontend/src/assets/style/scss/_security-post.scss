@@ -1,0 +1,100 @@
+.security-post-page {
+  padding-top: 40px;
+  border-top: 1px solid $input-text-color;
+  .steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .step {
+    padding: 10px 0;
+    margin: 0 47px;
+  }
+  .circle-point {
+    margin-right: 10px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: $input-text-color;
+    color: $white-text-color;
+  }
+  .step-text {
+    font-size: 20px;
+    line-height: 20px;
+    color: $gray-text-color;
+  }
+  .step-active {
+    border-bottom: 2px solid $primary-color;
+    .circle-point {
+      background-color: $primary-color;
+      color: $gray-font-color;
+    }
+    .step-text {
+      color: $gray-font-color;
+    }
+
+  }
+  .binding-phone {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    color: $light-blue-line;
+  }
+  .step-content {
+    margin: 40px 0 60px 0;
+    .auth-submit{
+      margin-top: 60px;
+      padding: 10px 75px;
+    }
+  }
+
+  .code-form {
+    position: relative;
+    margin-bottom: 60px;
+  }
+  .input-code {
+    padding: 0 20px;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid $input-text-color;
+    border-radius: 20px;
+    color: $gray-text-color;
+    outline: none;
+  }
+  .send-code {
+    position: absolute;
+    margin-left: -86px;
+    margin-top: 9px;
+    font-size: 12px;
+    color: $gray-text-color;
+  }
+  .new-phone {
+    margin-bottom: 20px;
+  }
+  .success-message {
+    i {
+      color: $primary-color;
+      font-size: 100px;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 30px;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 14px;
+      margin-bottom: 60px;
+    }
+  }
+  .form-back {
+    color: $black-text-color;
+  }
+  .next-submit{
+    padding: 10px 75px;
+  }
+}

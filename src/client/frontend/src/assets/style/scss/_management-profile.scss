@@ -1,0 +1,101 @@
+.management-profile-page {
+  padding-top: 40px;
+  border-top: 1px solid $input-text-color;
+  .profile-form {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .ivu-form-item-label {
+    float: none;
+    text-align: center;
+  }
+  .ivu-input {
+    width: 600px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .profile-submit{
+    margin-top: 35px;
+    padding: 10px 84px;
+  }
+  .upload-img {
+    width: 100%;
+    height: auto;
+  }
+  .ql-editor {
+    p {
+      font: 14px $font-family-sans-serif;
+    }
+  }
+}
+.upload-pic {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: center;
+}
+.upload-item {
+  width: 50%;
+  padding: 0 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+.upload-label {
+  font-size: 20px;
+  color: $light-blue-line;
+}
+.ios-cloud-upload-content {
+  padding: 20px 0 0;
+  .ios-cloud-upload {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    border: 1px solid $input-text-color;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    .size {
+      position: absolute;
+      right: 40px;
+      top: 40px;
+      font-size: 60px;
+    }
+  }
+  .ios-cloud-upload-f{
+    border-radius: 10%;
+  }
+  .ios-cloud-upload:hover {
+    background: $input-text-color;
+    color: $white-text-color;
+  }
+  .upload-logo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+}
+.upload-business{
+  width: 100%!important;
+  height: 168px!important;
+  .size{
+    right: 70px!important;
+    top: 55px!important;
+  }
+}
+.clear-margin{
+  margin-bottom: 0!important;
+}
+
+.upload-id{
+  width: 100%!important;
+  height: 183px!important;
+  .size{
+    right: 120px!important;
+    top: 60px!important;
+  }
+}

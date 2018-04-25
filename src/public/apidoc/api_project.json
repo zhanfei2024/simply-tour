@@ -1,0 +1,1 @@
+{  "name": "YOOV",  "version": "0.0.0",  "description": "YOOV global api doc",  "title": "YOOV global api doc",  "url": "https://hr.mark.dev/api/v1",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2017-11-06T02:38:03.858Z",    "url": "http://apidocjs.com",    "version": "0.17.6"  }}

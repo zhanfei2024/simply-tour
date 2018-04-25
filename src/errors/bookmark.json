@@ -1,0 +1,7 @@
+{
+  "mustChoose": {
+    "statusCode": 400,
+    "message": "You must choose a favorite object.",
+    "code": 6001
+  }
+}

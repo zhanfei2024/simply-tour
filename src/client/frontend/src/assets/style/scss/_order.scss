@@ -1,0 +1,104 @@
+.user-order-details {
+  .order-head {
+    padding: 20px;
+    position: relative;
+    border-bottom: 1px solid $input-text-color;
+    .contact{
+      color: $light-blue-line;
+      margin-bottom: 20px;
+    }
+    .order-link a{
+      margin-top: 0;
+    }
+  }
+  .order-date {
+    margin-left: 40px;
+  }
+  .order-status {
+    font-size: 20px;
+    color: $border-color;
+  }
+  .order-bodys{
+    padding: 40px 20px;
+  }
+  .management-dody{
+    padding-top: 0;
+    .order-profile{
+      margin-top: 0;
+      border: none;
+    }
+  }
+  .product-title{
+    font-size: 20px;
+    padding-top: 40px;
+    color: $gray-font-color;
+    margin-bottom: 20px;
+  }
+  .order-profile{
+    margin-top: 40px;
+    border-top: 6px solid $black-dark-bg;
+    .order-product{
+      padding-top: 30px;
+    }
+    .order-product:first-child{
+      padding-top: 30px;
+    }
+    .order-product:last-child{
+      border-bottom: 6px solid $black-dark-bg;
+    }
+  }
+  .order-contact{
+    padding-bottom: 40px;
+    border-bottom: 6px solid $black-dark-bg;
+    .text{
+      color: $light-blue-line;
+      margin-top: 20px;
+    }
+  }
+  .order-table{
+  }
+}
+
+.order-position{
+  z-index: 100000;
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  .order-link{
+    margin-right: 40px;
+  }
+}
+
+.order-status-step{
+  .step-name{
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: $black-text-color;
+    .step-number{
+      display: inline-block;
+      background: $input-text-color;
+      border-radius: 50%;
+      color: $white-dark-bg;
+      width: 20px;
+      height: 20px;
+      font-size: $letter-spacing-base;
+    }
+  }
+  .active{
+    color: $gray-font-color;
+    border-bottom: 2px solid #ffe775;
+    .step-number{
+      background: $primary-color;
+      color: $gray-font-color;
+    }
+  }
+  .step-date{
+    font-size: $font-size-small;
+    color: $black-text-color;
+  }
+  .active-date{
+    color: $gray-text-color;
+  }
+}
+

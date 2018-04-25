@@ -1,0 +1,7 @@
+{
+  "versionExist": {
+    "statusCode": 400,
+    "message": "The version already exist.",
+    "code": 1000
+  }
+}

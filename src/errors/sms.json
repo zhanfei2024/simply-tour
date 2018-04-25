@@ -1,0 +1,17 @@
+{
+  "error": {
+    "statusCode": 400,
+    "message": "The SMS send to failed.",
+    "code": 40001
+  },
+  "codeError": {
+    "statusCode": 400,
+    "message": "Code Error.",
+    "code": 40002
+  },
+  "codeExists": {
+    "statusCode": 400,
+    "message": "Code already exists, please try again 1 minutes.",
+    "code": 40003
+  }
+}
